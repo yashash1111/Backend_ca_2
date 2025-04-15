@@ -30,7 +30,6 @@ app.post('/users/login', (req,res)=>{
     }
 })
 
-
 app.listen(PORT, ()=>{
     console.log(`Server is running in localhost https://localhost:${PORT}`)
 })
